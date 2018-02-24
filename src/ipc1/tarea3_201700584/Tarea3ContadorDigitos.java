@@ -50,7 +50,7 @@ public class Tarea3ContadorDigitos {
                     haga esta operación el contador de digitos aumentara en 1 hasta que el numero ingresado sea menor a 1*/
                         
                     if (a > 0){
-                        
+                        DigNum = 0;
                         while(a>=1){
                                 
                             a=a/10;

@@ -41,7 +41,9 @@ public class IPC1Tarea3_201700584 {
             Aqui llamaremos a las clases que contienen los menus del programa*/
             
             case 1:
-                
+                /*Creamos un objeto de la clase IngresoUsuarios y luego se llama al metodo de la clase para ejecutar su menu */
+                Tarea3IngresoUsuarios llamar1 = new Tarea3IngresoUsuarios();
+                llamar1.Menu1();
                 break;
             
             case 2:
@@ -58,7 +60,9 @@ public class IPC1Tarea3_201700584 {
             break;
                 
             case 4:
-                
+                /*Creamos un objeto de la clase NotasAlumnos y luego se llama al metodo de la clase para ejecutar su codigo */
+                Tarea3NotasAlumnos llamar4 = new Tarea3NotasAlumnos();
+                llamar4.Menu4();
                 break;
                 
             case 5:
